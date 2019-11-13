@@ -64,18 +64,18 @@ script `pushLTEStatus`can be used to push the values to [Prometheus](https://pro
 NetMode can be set py posting XML to /api/net/net-mode and will allow custom configuration of the Bands being used by the Modem
 
 B618s-22d modem 
-LTE: B1/3/7/8/20/38
-FDD: 2100 MHz/1800 MHz/2600 MHz/900 MHz/800 MHz
-TDD: 2600 MHz
-Intra-band contiguous: CA_1C, CA_3C, CA_7C, CA_8B, CA_38C
-Inter-band : CA_1A-3A, CA_1A-20A, CA_3A-7A, CA_3A-20A, CA_7A-20A,
+- LTE: B1/3/7/8/20/38
+- FDD: 2100 MHz/1800 MHz/2600 MHz/900 MHz/800 MHz
+- TDD: 2600 MHz
+- Intra-band contiguous: CA_1C, CA_3C, CA_7C, CA_8B, CA_38C
+- Inter-band : CA_1A-3A, CA_1A-20A, CA_3A-7A, CA_3A-20A, CA_7A-20A,
 
 B618s-65d modem
-LTE: B1/3/5/7/8/28/40
-FDD: 2100 MHz/1800 Mhz/850 MHz/900 MHz/700 MHz
-TDD: 2600 MHz/2300 MHz
-Intraband contiguous: CA_1C, CA_3C, CA_5B, CA_7C, CA_8B, CA_40C
-Interband: CA_1A3A, CA_3A7A, CA_7A28A
+- LTE: B1/3/5/7/8/28/40
+- FDD: 2100 MHz/1800 Mhz/850 MHz/900 MHz/700 MHz
+- TDD: 2600 MHz/2300 MHz
+- Intraband contiguous: CA_1C, CA_3C, CA_5B, CA_7C, CA_8B, CA_40C
+- Interband: CA_1A3A, CA_3A7A, CA_7A28A
 
 Codes for each Band as follows
 0000000001 B1 2100
